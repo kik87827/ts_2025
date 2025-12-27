@@ -1,27 +1,15 @@
-let menName :string = "kim";
-let mensArray :string[] = ['kim','park'];
-let menObject :{name? : string} = {name : 'kim'}
+let member: (number | string | boolean) = 123;
 
-let menUni :string | number | string[] = 1234;
+member = 'test';
 
-type MyType = string | number;
-let menVar :MyType = 123;
+let members :(string|number)[] = [1, "2", 3];
 
-function myFunc(para :number) :number {
-    return para * 2;
-}
+let obj: { a: string | number } = { a: '123' }
 
-myFunc(1);
+let name1: unknown;
+name1 = 123;
+name1 = {}
 
-type Member = [number,boolean];
-let john :Member = [123,true]
+let age: string | number;
 
-type Member2 = { [key :string] : string};
-let john2 :Member2 = { name : 'john', name2 : 'test'}
-
-class User {
-    name :string;
-    constructor(name :string){
-        this.name = name;
-    }
-}
+/* any타입 ==> 타입실드해제문법 */

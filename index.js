@@ -1,17 +1,9 @@
-var menName = "kim";
-var mensArray = ['kim', 'park'];
-var menObject = { name: 'kim' };
-var menUni = 1234;
-var menVar = 123;
-function myFunc(para) {
-    return para * 2;
-}
-myFunc(1);
-var john = [123, true];
-var john2 = { name: 'john', name2: 'test' };
-var User = /** @class */ (function () {
-    function User(name) {
-        this.name = name;
-    }
-    return User;
-}());
+var member = 123;
+member = 'test';
+var members = [1, "2", 3];
+var obj = { a: '123' };
+var name1;
+name1 = 123;
+name1 = {};
+var age;
+/* any타입 ==> 타입실드해제문법 */ 

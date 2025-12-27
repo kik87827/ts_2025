@@ -3,10 +3,13 @@ function func(x) {
 }
 function func2(x) {
 }
-func(10);
-func2();
 function func3(x) {
+}
+function func4(x) {
     if (typeof x === "number") {
         console.log(x + 3);
     }
 }
+func(2);
+func2();
+func3(1);
