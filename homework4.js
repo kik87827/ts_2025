@@ -15,3 +15,5 @@ const testalias :NewAlias = { a: '1', b: 2, c:3}
  */
 var makeVar = { size: 5, position: [1, 2, 34] };
 var men1 = { name: 'kim', email: 'abc@naver.com' };
+// 기존 type을 & 기호로 extend 해봤습니다.
+var men2 = { name: 'park', boy: false, email: 'test@test.com', phone: 112 };

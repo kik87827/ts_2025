@@ -62,5 +62,4 @@ const men1: MenCheck = { name: 'kim', email : 'abc@naver.com' }
 type MenCheck2 = { boy: boolean }
 type MenMultiCheck = MenCheck & MenCheck2;
 
-// 기존 type을 & 기호로 extend 해봤습니다.
 const men2 :MenMultiCheck = { name : 'park', boy : false, email : 'test@test.com', phone : 112 }

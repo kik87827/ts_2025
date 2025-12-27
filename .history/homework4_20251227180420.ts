@@ -47,20 +47,3 @@ const makeVar: MakeObj = { size: 5, position: [1, 2, 34] }
 type MenCheck = { name: string, phone?: number, email: string }
 
 const men1: MenCheck = { name: 'kim', email : 'abc@naver.com' }
-
-
-/* 
-
-(숙제4) 다음을 만족하는 type alias를 만들어보십시오.
-
-1. 숙제2와 똑같은데 이번엔 이름, 전화번호, 이메일, 미성년자여부 속성을 옳은 타입인지 검사하는 type alias를 만들어봅시다.
-2. 미성년자 여부 속성은 true/false만 들어올 수 있습니다. 
-3. 멋있게 숙제3에서 만들어둔 type alias를 재활용해봅시다.
-
-*/
-
-type MenCheck2 = { boy: boolean }
-type MenMultiCheck = MenCheck & MenCheck2;
-
-// 기존 type을 & 기호로 extend 해봤습니다.
-const men2 :MenMultiCheck = { name : 'park', boy : false, email : 'test@test.com', phone : 112 }
